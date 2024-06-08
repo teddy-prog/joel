@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5ff; /* Bleu clair */
+    color: #333;
+}
+
+header {
+    background-color: #1e90ff; /* Bleu */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    padding: 2rem;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1e90ff; /* Bleu */
+}
+
+footer {
+    background-color: #1e90ff; /* Bleu */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+/* Ajoute du style pour la photo ou le logo */
+.profile-pic img {
+    width: 150px; /* Ajuste la taille selon tes besoins */
+    border-radius: 50%;
+}
+
+/* Style pour le bouton WhatsApp */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; /* Vert WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e; /* Vert foncé WhatsApp */
+}
+
